@@ -1,4 +1,4 @@
-﻿package com.docetor.utils;
+package com.docetor.utils;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;

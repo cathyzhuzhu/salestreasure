@@ -1,6 +1,7 @@
-﻿package com.docetor;
+package com.docetor;
 
-import com.twoyum.filter.AccessFilter;
+
+import com.docetor.filter.AccessFilter;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.embedded.MultipartConfigFactory;
 import org.springframework.cloud.client.SpringCloudApplication;

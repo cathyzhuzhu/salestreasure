@@ -1,4 +1,4 @@
-﻿package com.docetor.domain;
+package com.docetor.domain;
 
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;

@@ -1,17 +1,14 @@
-﻿package com.docetor.filter;
+package com.docetor.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
-import com.twoyum.commons.Response;
-import com.twoyum.domain.LogInfoInDto;
-import com.twoyum.utils.JWTUtil;
+import com.docetor.commons.Response;
+import com.docetor.utils.JWTUtil;
 import net.sf.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.client.RestTemplate;
 
@@ -19,9 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.HashMap;
 
-import static org.springframework.http.MediaType.APPLICATION_JSON_UTF8;
 @CrossOrigin
 public class AccessFilter extends ZuulFilter  {
 
